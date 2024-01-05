@@ -1,0 +1,334 @@
+.nav-items {
+    color: black;
+    font-size: 15px;
+    display: flex;
+
+}
+
+
+
+.line {
+    color: black;
+    width: 100%;
+}
+
+
+
+.home-container {
+    border-style: solid;
+    border-color: lightgreen;
+    margin: 11px;
+    border-radius: 15px;
+    border-width: 1px;
+}
+
+.item {
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+
+.name {
+    font-size: 15px;
+    font-family: "Roboto";
+}
+
+.role {
+    color: green;
+    font-size: 18px;
+    font-family: "Roboto";
+}
+
+.name-intro {
+    font-size: 18px;
+    font-family: "Roboto";
+}
+
+.desc {
+    font-size: 13px;
+    width: 60%;
+    font-family: "Roboto";
+}
+
+.project-btn {
+    background-color: yellow;
+    font-weight: 600;
+    border-width: 0.5px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    font-family: "Roboto";
+    width: 100px;
+}
+
+.linkdin-btn {
+    font-weight: 600;
+    border-width: 0.5px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    font-family: "Roboto";
+    width: 100px;
+
+}
+
+.heading {
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: 600;
+
+}
+
+.add-project-container {
+    border-style: solid;
+    padding: 10px;
+    border-color: lightgreen;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+
+.input {
+    height: 38px;
+    border-color: #cbd2d9;
+    padding-left: 10px;
+}
+
+
+.add-btn {
+    background-color: yellow;
+    margin: 5px;
+    border-width: 2px;
+    width: 100px;
+    border-radius: 5px;
+    height: 35px;
+}
+
+.desc-input {
+    padding: 10px;
+}
+
+.add-button-container {
+    text-align: end;
+}
+
+.projects-heading {
+    text-align: center;
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+.projects-container {
+    border-style: solid;
+    padding: 10px;
+    border-color: lightgreen;
+    margin: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+.contact-us-section {
+    border-style: solid;
+    padding: 10px;
+    border-color: lightgreen;
+    margin: 10px;
+    border-radius: 10px;
+    border-width: 1px;
+    height: 100px;
+}
+
+.contact-us {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+
+.logo {
+    color: white;
+    background-color: #293c59;
+    background-size: cover;
+    height: 35px;
+    width: 35px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 6px;
+
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+}
+
+.project-list {
+    list-style-type: none;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: #f5f7fa;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin: auto;
+}
+
+@media screen and (min-width:1200px) {
+    .container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .nav-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .item {
+        font-size: 25px;
+        font-family: "Roboto";
+    }
+
+    .name {
+        font-size: 25px;
+    }
+
+    .role {
+        font-size: 30px;
+    }
+
+    .name-intro {
+        font-size: 25px;
+    }
+
+    .desc {
+        font-size: 20px;
+    }
+
+    .project {
+        font-size: 30px;
+    }
+
+    .heading {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .label {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width:475px) {
+    .profile-image {
+        display: none;
+    }
+}
+
+@media screen and (min-width:769px) {
+    .profile-container {
+        padding-left: 50px;
+    }
+
+    .container {
+        display: flex;
+    }
+
+    .linkdin-btn {
+        width: 200px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .contact-us {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .project-btn {
+        width: 200px;
+    }
+
+    .nav-container {
+        font-size: 30px;
+    }
+
+    .profile-image {
+        height: 300px;
+        width: 300px;
+    }
+
+    .item {
+        font-size: 25px;
+        font-family: "Roboto";
+    }
+
+    .name {
+        font-size: 25px;
+    }
+
+    .role {
+        font-size: 30px;
+    }
+
+    .name-intro {
+        font-size: 25px;
+    }
+
+    .desc {
+        font-size: 20px;
+    }
+
+    .project {
+        font-size: 30px;
+    }
+
+    .heading {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .label {
+        font-size: 20px;
+    }
+}
+
+.profile-image {
+    height: 200px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.project-name {
+    font-size: 18px;
+    font-family: "Roboto";
+}
+
+.project-desc {
+    font-size: 13px;
+    color: #181818;
+}
+
+.view-button {
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 5px;
+
+}
