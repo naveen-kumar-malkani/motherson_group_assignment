@@ -17,13 +17,13 @@ function addProject() {
     descEl.textContent = Desc;
     descEl.classList.add("project-desc");
     let buttonEl = document.createElement("button");
-    buttonEl.textContent = "View Project";
     buttonEl.classList.add("view-button");
-    console.log(Link);
-    buttonEl.addEventListener("click", function() {
-        window.location.href = Link;
-    });
+    let LinkEl = document.createElement("a");
+    LinkEl.href = Link;
+    LinkEl.target = "_blank";
+    LinkEl.textContent = "View Project";
 
+    buttonEl.appendChild(LinkEl);
     projectItem.appendChild(nameEl);
     projectItem.appendChild(descEl);
     projectItem.appendChild(buttonEl);
