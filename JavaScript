@@ -1,3 +1,4 @@
+
 let ProjectItemsContainer = document.getElementById("projectsContainer");
 
 function addProject() {
@@ -18,12 +19,12 @@ function addProject() {
     descEl.classList.add("project-desc");
     let buttonEl = document.createElement("button");
     buttonEl.classList.add("view-button");
-    let LinkEl = document.createElement("a");
-    LinkEl.href = Link;
-    LinkEl.target = "_blank";
-    LinkEl.textContent = "View Project";
+    buttonEl.textContent = "View Project";
 
-    buttonEl.appendChild(LinkEl);
+    buttonEl.addEventListener("click", function() {
+        window.open(Link, "_blank");
+    });
+
     projectItem.appendChild(nameEl);
     projectItem.appendChild(descEl);
     projectItem.appendChild(buttonEl);
@@ -35,6 +36,12 @@ function addProject() {
         ProjectItemsContainer.removeChild(projectItem);
         alert("Enter Project Details");
     }
+}
 
+function scrollToSection(sectionId) {
+    let targetSection = document.getElementById(sectionId);
+    targetSection.scrollIntoView({
+        behavior: "smooth"
+    });
 
 }
