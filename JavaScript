@@ -31,6 +31,10 @@ function addProject() {
     ProjectItemsContainer.appendChild(projectItem);
 
     document.getElementById("projectForm").reset();
+    if (Name === "") {
+        ProjectItemsContainer.removeChild(projectItem);
+        alert("Enter Project Details");
+    }
 
 
 }
