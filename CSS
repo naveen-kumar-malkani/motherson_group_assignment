@@ -2,6 +2,7 @@
     color: black;
     font-size: 15px;
     display: flex;
+    list-style-type: none;
 
 }
 
@@ -183,7 +184,6 @@
     background-color: #f5f7fa;
     padding: 10px;
     margin-bottom: 5px;
-    margin: auto;
 }
 
 @media screen and (min-width:1200px) {
@@ -195,6 +195,17 @@
     .nav-container {
         padding-left: 20px;
         padding-right: 20px;
+    }
+
+    .projectLists {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 60px;
+    }
+
+    .project-list {
+        width: 40%;
+        margin: 5px;
     }
 
     .item {
@@ -242,6 +253,17 @@
 @media screen and (min-width:769px) {
     .profile-container {
         padding-left: 50px;
+    }
+
+    .project-list {
+        width: 45%;
+        margin: 5px;
+    }
+
+    .projectLists {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 20px;
     }
 
     .container {
@@ -327,8 +349,10 @@
 }
 
 .view-button {
-    background-color: yellow;
+    background-color: lightgreen;
     border-radius: 5px;
     padding: 5px;
+    border-width: 1px;
+
 
 }
